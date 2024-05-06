@@ -60,10 +60,10 @@ export default function Section1() {
                             left: '4em',
 
                             '@media (max-width: 768px)': {
-                                fontSize: '1.4em',
+                               fontSize: '1.3em',
 
-                                top: '3.2em',
-                                left: '2em',
+                                top: '30%',
+                                left: '14%',
                                 fontFamily: 'blacksansblack',
 
                                 height: 'fit-content',
