@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'blacksansblack';
+    src: url(./fonts/blacksansblack.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksanscon';
+    src: url(./fonts/blacksanscon.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksans';
+    src: url(./fonts/blacksans.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksansbold';
+    src: url(./fonts/blacksansbold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.story1 {
+    height: 10.05em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.story2 {
+    height: 10.05em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.story3 {
+    height: 10.05em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+
+.quote {
+    position: absolute;
+    height: 2em;
+    bottom: 85%;
+    left: 1%
+}
+
+.terra {
+    height: 25.6em;
+    position: absolute;
+   top: 1em;
+   left: 1em;
+     
+}
+
+.terra2 {
+    display: none
+}
+@media (max-width: 768px) {
+    .story1 {
+        height: 9.9em;
+    }
+    .story2 {
+        height: 9.9em;
+    }
+    .story3 {
+        height: 9.9em;
+    }
+
+    .terra {
+        display: none
+    }
+    .terra2 {
+        display: block;
+        width: 100%;
+        height: auto;
+      
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        
+    }
+}
