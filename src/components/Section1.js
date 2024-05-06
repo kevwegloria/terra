@@ -63,7 +63,7 @@ export default function Section1() {
                             left: '4em',
 
                             '@media (max-width: 768px)': {
-                                fontSize: '1.3em',
+                                fontSize: '1.5em',
                                 position: 'absolute',
                                 top: '30%',
                                 left: '15%',
