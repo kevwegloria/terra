@@ -24,7 +24,9 @@ export default function Section1() {
                 width: '100%',
                 '@media (max-width: 768px)': {
                     display: 'flex',
-                    flexDirection: 'column'
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                   
                 }
             }}>
                 <Box
@@ -42,7 +44,8 @@ export default function Section1() {
                             alignItems: 'center',
                             justifyContent: 'center',
                             paddingTop: '9em',
-                            paddingBottom: '1.5em'
+                            paddingBottom: '1.5em',
+                            
 
 
 
@@ -60,14 +63,19 @@ export default function Section1() {
                             left: '4em',
 
                             '@media (max-width: 768px)': {
-                               fontSize: '1.3em',
-
+                                fontSize: '1.3em',
+                                position: 'absolute',
                                 top: '30%',
-                                left: '14%',
+                                left: '15%',
                                 fontFamily: 'blacksansblack',
+                                
+                                
+                               
 
-                                height: 'fit-content',
-                                textAlign: 'center'
+                               
+                                textAlign: 'center',
+                              
+
                             }
                             // paddingLeft: '4.3em'
                         }}>Why TerraKulture
@@ -114,7 +122,7 @@ export default function Section1() {
 
                     width: '40em',
                     marginBottom: '2em',
-                   
+
                     '@media (max-width: 768px)': {
                         width: '100%',
                         borderRadius: '0%',
